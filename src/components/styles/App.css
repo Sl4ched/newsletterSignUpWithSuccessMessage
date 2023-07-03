@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,700;1,400&family=Lexend+Deca&family=Overpass&family=Roboto:wght@400;700&family=Rubik:wght@500&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Below is mine*/
+
+@media screen and (min-width: 391px) {
+    .outerContainer {
+        display: flex;
+        flex-flow: row;
+        background: white;
+        border-radius: 15px;
+    }
+
+    body {
+        background: hsl(234, 29%, 20%);
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        color: #23263e;
+    }
+
+    .left_side {
+        display: flex;
+        flex-flow: column;
+        margin: 80px 30px 0 50px;
+        width: 370px;
+    }
+
+    .rightSide {
+        margin: 20px 15px;
+
+    }
+
+    .checkContainer {
+        display: flex;
+        margin: 5px 0;
+    }
+
+    .mail {
+        width: 330px;
+        border-radius: 7px;
+        padding: 15px 15px;
+    }
+
+    .photoScale {
+        height: 480px;
+    }
+
+    .hover {
+        color: white;
+        background: hsl(232, 31%, 20%);
+        border: none;
+        margin: 18px 0 0 0;
+        border-radius: 7px;
+        padding: 18px;
+        font-weight: 700;
+    }
+
+    .outerContainer2 {
+        display: flex;
+        flex-flow: column;
+        background: white;
+        padding: 40px;
+        border-radius: 25px;
+    }
+
+    .hover2 {
+        color: white;
+        background: hsl(232, 31%, 20%);
+        border: none;
+        margin: 18px 0 0 0;
+        border-radius: 7px;
+        padding: 18px;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    .wholeTextContainer {
+
+        display: flex;
+        flex-flow: column;
+        width: 370px;
+
+    }
+
+    button.hover:hover {
+        box-shadow: 0 15px 15px rgba(253, 84, 116, 0.41);
+        background: rgb(253, 84, 116);
+        background: linear-gradient(90deg, rgba(253, 84, 116, 1) 0%, rgba(253, 92, 91, 1) 50%, rgba(253, 142, 61, 1) 100%);
+    }
+
+}
+
+@media screen and (max-width: 391px) {
+
+    .outerContainer {
+        display: flex;
+        flex-flow: column;
+        background: white;
+        border-radius: 15px;
+        width: 390px;
+    }
+
+    body {
+        background: white;
+        display: flex;
+        height: 844px;
+        width: 390px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #23263e;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .left_side {
+        display: flex;
+        flex-flow: column;
+        order: 2;
+        margin: 25px 10px 15px 25px;
+        width: 350px;
+    }
+
+    .rightSide {
+        position: relative;
+        order: 1;
+    }
+
+
+    .photoScale {
+        width: 100%;
+        height: 100%;
+    }
+
+    .checkImg {
+        height: 100%;
+    }
+
+    .checkContainer {
+        display: flex;
+        flex-flow: row;
+        margin: 5px 0;
+        width: 290px;
+        line-height: 20px;
+    }
+
+    .hover {
+        color: white;
+        background: hsl(232, 31%, 20%);
+        border: none;
+        margin: 18px 0 0 0;
+        border-radius: 7px;
+        padding: 18px;
+        width: 334px;
+        font-weight: 700;
+    }
+
+    .outerContainer2 {
+        display: flex;
+        flex-flow: column;
+        background: white;
+        padding: 20px;
+        height: 620px;
+        justify-content: space-between;
+        position: absolute;
+        top: 150px;
+
+    }
+
+    .hover2 {
+        color: white;
+        background: hsl(232, 31%, 20%);
+        border: none;
+        margin: 18px 0 0 0;
+        border-radius: 7px;
+        padding: 18px;
+        width: 100%;
+        font-weight: 700;
+
+    }
+
+    .wholeTextContainer {
+
+        display: flex;
+        flex-flow: column;
+        width: 350px;
+        font-size: 18px;
+
+    }
+
+    .mail {
+        width: 300px;
+        border-radius: 7px;
+        padding: 15px;
+    }
+
+    button.hover:hover {
+        box-shadow: 0 15px 15px rgba(253, 84, 116, 0.41);
+        background: rgb(253, 84, 116);
+        background: linear-gradient(90deg, rgba(253, 84, 116, 1) 0%, rgba(253, 92, 91, 1) 50%, rgba(253, 142, 61, 1) 100%);
+    }
+
+}
