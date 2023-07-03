@@ -140,6 +140,12 @@ table {
         background: linear-gradient(90deg, rgba(253, 84, 116, 1) 0%, rgba(253, 92, 91, 1) 50%, rgba(253, 142, 61, 1) 100%);
     }
 
+    button.hover2:hover {
+        box-shadow: 0 15px 15px rgba(253, 84, 116, 0.41);
+        background: rgb(253, 84, 116);
+        background: linear-gradient(90deg, rgba(253, 84, 116, 1) 0%, rgba(253, 92, 91, 1) 50%, rgba(253, 142, 61, 1) 100%);
+    }
+
 }
 
 @media screen and (max-width: 391px) {
@@ -246,6 +252,12 @@ table {
     }
 
     button.hover:hover {
+        box-shadow: 0 15px 15px rgba(253, 84, 116, 0.41);
+        background: rgb(253, 84, 116);
+        background: linear-gradient(90deg, rgba(253, 84, 116, 1) 0%, rgba(253, 92, 91, 1) 50%, rgba(253, 142, 61, 1) 100%);
+    }
+
+    button.hover2:hover {
         box-shadow: 0 15px 15px rgba(253, 84, 116, 0.41);
         background: rgb(253, 84, 116);
         background: linear-gradient(90deg, rgba(253, 84, 116, 1) 0%, rgba(253, 92, 91, 1) 50%, rgba(253, 142, 61, 1) 100%);

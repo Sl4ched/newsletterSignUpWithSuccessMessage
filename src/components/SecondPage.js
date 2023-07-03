@@ -15,18 +15,32 @@ const SecondPage = (props) => {
 
             <div className={"wholeTextContainer"}>
 
-                <div style={{margin: "0 0 6px 0"}}>A confirmation email has been sent to</div>
+                <div style={{margin: "0 0 6px 0",marginLeft: "5px"}}>A confirmation email has been sent to</div>
 
-                <div style={{display: "flex", margin: "0 0 6px 0", width: "350px", flexWrap: "wrap"}}>
+                <div style={{
+                    display: "flex",
+                    width: "350px",
+                    flexWrap: "wrap",
+                    lineHeight: "26px",
+                }}>
                     <div style={{
                         fontWeight: "700",
+                        marginRight: "5px",
+                        marginLeft: "5px"
                     }}>{props.mail + "."}</div>
 
-                    <div style={{margin:"0 0  6px 5px"}}>Please open it</div>
+                    <div>Please</div>
+                    <div style={{marginLeft: "5px"}}>open</div>
+                    <div style={{marginLeft: "5px"}}>it</div>
+                    <div style={{marginLeft: "5px"}}>and</div>
+                    <div style={{marginLeft: "5px"}}>click</div>
+                    <div style={{marginLeft: "5px"}}>button</div>
+                    <div style={{marginLeft: "5px"}}>inside</div>
+                    <div style={{marginLeft: "5px"}}>to</div>
+                    <div style={{marginLeft: "5px"}}>confirm</div>
+                    <div style={{marginLeft: "5px"}}>your</div>
+                    <div style={{marginLeft: "5px"}}>subscription</div>
 
-                    <div style={{lineHeight:"26px"}}>
-                        and click the button inside to confirm your subscription.
-                    </div>
                 </div>
 
 
